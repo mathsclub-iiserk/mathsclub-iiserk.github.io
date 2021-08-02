@@ -1,0 +1,50 @@
+---
+layout: default
+title: Home
+---
+
+<div class="post-block">
+    <h1>Announcements</h1>
+
+    <ul>
+        {% for post in site.categories.announcements limit:5 %}
+            <li>
+                <span class="post-date"> {{ post.date | date: "%d %b %Y" }} </span>
+                <a class="post-link" href="{{ post.url }}">{{ post.title }}</a>
+            </li>
+        {% endfor %}
+    </ul>
+    <a class="read-more-link" href="/announcements/">Older posts ...</a>
+</div>
+
+
+<div class="post-block">
+    <h1>Monthly Contests</h1>
+
+    <ul>
+        {% for post in site.categories.contests limit:5 %}
+            <li>
+                <span class="post-date"> {{ post.date | date: "%d %b %Y" }} </span>
+                <a class="post-link" href="{{ post.url }}">{{ post.title }}</a>
+            </li>
+        {% endfor %}
+    </ul>
+    <a class="read-more-link" href="/contests/">Older posts ...</a>
+</div>
+
+
+<div class="post-block">
+    <h1>Talks and Demos</h1>
+
+    <ul>
+        {% for post in site.categories.talks limit:5 %}
+            <li>
+                <span class="post-date"> {{ post.date | date: "%d %b %Y" }} </span>
+                <a class="post-link" href="{{ post.url }}">{{ post.title }}</a>
+            </li>
+        {% endfor %}
+    </ul>
+    <a class="read-more-link" href="/talks/">Older posts ...</a>
+</div>
+
+

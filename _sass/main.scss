@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #F9F9F9;
+}
+
+hr {
+    border: none;
+    border-top: solid 1px #AAAAAA;
+}
+
+ul li::marker {
+    content: "";
+}
+
+a {
+    text-decoration: none;
+    color: #1D1DBD;
+}
+
+a:hover {
+    color: #222222;
+    text-decoration: underline;
+}
+
+
+.content {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 32px 32px;
+    max-width: 80ch;
+}
+
+.content div + div {
+    margin: 32px 0;
+}

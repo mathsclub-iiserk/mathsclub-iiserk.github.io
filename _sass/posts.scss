@@ -1,0 +1,26 @@
+.post-block li {
+    margin-bottom: 2px;
+    
+    /*
+    @media screen and (max-width: 450px) {
+        display: flex;
+        flex-direction: column;
+
+        .post-link {
+            margin-left: 2ch;
+        }
+    }
+    */
+}
+
+.post-block .post-date {
+    display: inline-block;
+    width: 12ch;
+    
+    font-style: italic;
+}
+
+.post-block .read-more-link {
+    display: block;
+    margin-top: 8px;
+}

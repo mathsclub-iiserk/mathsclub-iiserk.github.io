@@ -1,0 +1,24 @@
+$font-serif      : "Lora", serif;
+$font-sans-serif : "Open Sans", sans-serif;
+
+* {
+    font-family: $font-serif;
+    font-size: 18px;
+}
+
+h1, h2, h3, .heading {
+    font-family: $font-sans-serif;
+    margin-bottom: 0.5em;
+}
+
+h1 {
+    font-size: 1.5em;
+}
+
+h2 {
+    font-size: 1.2em;
+}
+
+h3 {
+    font-size: 1em;
+}

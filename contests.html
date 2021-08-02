@@ -1,0 +1,17 @@
+---
+layout: default
+title: Monthly Contests
+---
+
+<div class="post-block">
+    <h1>Monthly Contests</h1>
+
+    <ul>
+        {% for post in site.categories.contests %}
+            <li>
+                <span class="post-date"> {{ post.date | date: "%d %b %Y" }} </span>
+                <a class="post-link" href="{{ post.url }}">{{ post.title }}</a>
+            </li>
+        {% endfor %}
+    </ul>
+</div>
