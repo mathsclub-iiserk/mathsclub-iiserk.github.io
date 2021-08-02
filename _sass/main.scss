@@ -12,10 +12,6 @@ hr {
     border-top: solid 1px #AAAAAA;
 }
 
-ul li::marker {
-    content: "";
-}
-
 a {
     text-decoration: none;
     color: #1D1DBD;
@@ -26,12 +22,17 @@ a:hover {
     text-decoration: underline;
 }
 
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
 
 .content {
+    width: calc(min(100vw - 64px, 80ch));
     margin-left: auto;
     margin-right: auto;
     padding: 32px 32px;
-    max-width: 80ch;
 }
 
 .content div + div {

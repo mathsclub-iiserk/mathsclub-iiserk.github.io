@@ -1,16 +1,9 @@
 .post-block li {
     margin-bottom: 2px;
-    
-    /*
-    @media screen and (max-width: 450px) {
-        display: flex;
-        flex-direction: column;
+}
 
-        .post-link {
-            margin-left: 2ch;
-        }
-    }
-    */
+.post-block ul {
+    list-style-type: none;
 }
 
 .post-block .post-date {
