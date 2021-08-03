@@ -1,6 +1,4 @@
 ---
-layout: default
+layout: post
 title: Fourth Post!
 ---
-
-# Fourth Post!

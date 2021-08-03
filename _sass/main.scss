@@ -38,3 +38,23 @@ a:hover {
 .content div + div {
     margin: 32px 0;
 }
+
+.post-block li {
+    margin-bottom: 2px;
+}
+
+.post-block ul {
+    list-style-type: none;
+}
+
+.post-block .post-date {
+    display: inline-block;
+    width: 12ch;
+    
+    font-style: italic;
+}
+
+.post-block .read-more-link {
+    display: block;
+    margin-top: 8px;
+}

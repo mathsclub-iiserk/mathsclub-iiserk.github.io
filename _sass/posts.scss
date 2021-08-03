@@ -1,19 +1,11 @@
-.post-block li {
-    margin-bottom: 2px;
+.post .post-title {  
 }
 
-.post-block ul {
-    list-style-type: none;
-}
-
-.post-block .post-date {
-    display: inline-block;
-    width: 12ch;
-    
+.post .post-date {
+    margin-bottom: 24px;
     font-style: italic;
 }
 
-.post-block .read-more-link {
-    display: block;
-    margin-top: 8px;
+.post p {
+    margin-bottom: 0.7em;
 }

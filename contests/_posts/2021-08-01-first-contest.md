@@ -1,6 +1,4 @@
 ---
-layout: default
+layout: post
 title: "Monthly Contest #1"
 ---
-
-# Monthly Contest #1
