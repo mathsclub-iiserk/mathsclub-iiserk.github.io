@@ -1,7 +1,3 @@
-nav {
-    margin-top: 8px;
-}
-
 nav a {
     display: inline-block;
     margin: 8px 24px 8px 0;
@@ -12,16 +8,16 @@ nav a {
     @media screen and (max-width: 450px) {
         display: block;
     }
-}
 
-nav a:last-of-type {
-    margin-right: 0;
-}
+    &:last-of-type {
+        margin-right: 0;
+    }
 
-nav a.current {
-    color: #222222;
-}
+    &.current {
+        color: #222222;
+    }
 
-nav a:hover {
-    text-decoration: none;
+    &:hover {
+        text-decoration: none;
+    }
 }

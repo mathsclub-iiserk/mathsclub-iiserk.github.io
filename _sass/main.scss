@@ -29,13 +29,14 @@ a:hover {
 }
 
 .content {
+    position: relative;
     width: calc(min(100vw - 64px, 80ch));
     margin-left: auto;
     margin-right: auto;
     padding: 32px 32px;
 }
 
-.content div + div {
+.content .post-block + .post-block {
     margin: 32px 0;
 }
 

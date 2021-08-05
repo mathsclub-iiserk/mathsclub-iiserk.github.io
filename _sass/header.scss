@@ -3,32 +3,124 @@
     padding: 24px 32px;
     width: calc(min(100vw - 64px, 80ch));
     
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-areas: "logo nav dyk";
+    grid-template-columns: auto auto 48px;
     align-items: center;
 
 }
 
 .header .main-logo {
+    grid-area: logo;
+
     display: flex;
     flex-direction: row;
     align-items: baseline;
 
     margin-right: auto;
-}
+    
+    h1 {
+        margin: 0 12px 0 0;
+        font-size: 32px;
+    }
 
-@media screen and (max-width: 700px) {
-    .header, .header .main-logo {
-        flex-direction: column;
-        align-items: flex-start;
+    span {
+        font-family: "Montserrat", sans-serif;
     }
 }
 
-.header h1 {
-    margin: 0 12px 0 0;
-    font-size: 32px;
+.header .did-you-know {
+    grid-area: dyk;
+
+    position: relative;
+    margin: 4px 0 0 16px;
+        font-style: italic;
+
+
+    #dyk {
+        height: 48px;
+        width: 48px;
+
+        .bulb {
+            fill: #FFA900;
+            transition: fill .2s ease;
+        }
+        .ray {
+            fill: #FFC000;
+            opacity: 0;
+            transition: opacity .2s ease;
+        }
+    }
+
+
+    &:hover #dyk {
+        .bulb {
+            fill: #FFD045;
+        }
+        .ray {
+            opacity: 1;
+        }
+    }
+
+    h1 {
+        font-style: normal;
+        font-size: 20px;
+        margin-bottom: 4px;
+    }
+
+    .fact-box {
+        display: none;
+        position: absolute;
+    }
+
+    &:hover .fact-box {
+        display: block;
+        top: calc(100% + 12px);
+        right: -8px;
+        width: 24ch;
+        max-width: calc(100vw - 64px);
+        padding: 12px;
+        background: #ffffff;
+        border-radius: 3px;
+        border: solid 2px #999999;
+
+        &:after {
+            position: absolute;
+            content: '';
+            background: #ffffff;
+            width: 8px;
+            height: 8px;
+            top: -6px;
+            right: 8px;
+            transform: rotate(45deg);
+            border-top: solid 2px #999999;
+            border-left: solid 2px #999999;
+        }
+    }
 }
 
-.header span {
-    font-family: "Montserrat", sans-serif;
+.header nav {
+    grid-area: nav;
+
+    margin-top: 8px;
+    text-align: right;
+}
+
+@media screen and (max-width: 700px) {
+    .header, {
+        grid-template-areas: "logo dyk"
+                             "nav  nav";
+        grid-template-columns: 1fr 48px;
+    }
+    .header .main-logo {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .header .did-you-know {
+        margin: 0;
+    }
+    .header nav {
+        text-align: left;
+    }
 }
