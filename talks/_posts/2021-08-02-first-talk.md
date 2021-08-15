@@ -1,6 +1,10 @@
 ---
 layout: post
+katex: true
 title: "On Starting a Mathematics Club"
+author: "Nicolas Bourbaki"
+blurb: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+eiusmodtempor incididunt ut labore et dolore magna aliqua."
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec porta venenatis
@@ -16,6 +20,14 @@ cubilia curae; Duis et bibendum enim, non blandit tellus. Donec ac accumsan
 sem, vel tristique ipsum. Praesent nec blandit lorem. Maecenas nulla sem,
 hendrerit sodales fermentum nec, porta et justo. Sed vitae velit a nisl porta
 aliquet luctus commodo diam.
+
+Inline math such as $a^2 + b^2 = c^2$ works fine.
+
+Display math is also supported.
+
+$$
+    f(z_0) = \frac{1}{2\pi i} \oint_\gamma \frac{f(z)}{z - z_0} \:dz.
+$$
 
 In aliquam congue lorem, quis pulvinar lorem pretium ut. Nam in bibendum ex.
 Vestibulum nibh mi, viverra ut tempus nec, tincidunt at enim. Maecenas congue

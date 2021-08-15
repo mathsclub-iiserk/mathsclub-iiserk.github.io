@@ -1,40 +1,49 @@
-.content .riemannzeta-wrapper {
-    position: absolute;
-    top: 48px;
-    right: 32px;
+.first-post {
+    margin-bottom: 16px;
+    .post-title {
+        font-size: 32px;
+        margin-bottom: 8px;
+    }
+
+    .post-details {
+        .post-info {
+            margin-bottom: 8px;
+            
+            font-style: italic;
+
+            div {
+                display: inline-block;
+                margin-right: 12px;
+                
+                @media screen and (max-width: 700px) {
+                    display: block;
+                }
+            }
+        }
+    }
     
-    @media screen and (max-width: 850px) {
-        display: none;
-        // position: relative;
-        // top: 0;
-        // right: 0;
-        // width: 100%;
-        // margin: 32px auto;
+    .post-blurb {
+        margin-bottom: 8px;
+    }
+
+    .read-more-link {
+        font-weight: bold;
     }
 }
 
-.content #riemannzeta {
-    width: 440px;
-    height: 330px;
+.post-blocks {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 
-    // @media screen and (max-width: 850px) {
-    //     display: block;
-    //     width: 95%;
-    //     margin: auto;
-    // }
-
-    #graph {
-        stroke-dasharray: 33.051;
-        stroke-dashoffset: 33.051;
-        animation: dash 7s 0.5s ease forwards;
+    .post-block {
+        flex: 40% 1 1;
+        margin: 24px 0;
+        padding-right: 16px;
     }
-}
-
-@keyframes dash {
-    from {
-        stroke-dashoffset: 33.051;
-    }
-    to {
-        stroke-dashoffset: 0;
+    
+    @media screen and (max-width: 700px) {
+        display: block;
+        margin-top: 32px;
     }
 }

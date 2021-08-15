@@ -108,7 +108,7 @@
 }
 
 @media screen and (max-width: 700px) {
-    .header, {
+    .header {
         grid-template-areas: "logo dyk"
                              "nav  nav";
         grid-template-columns: 1fr 48px;

@@ -1,11 +1,19 @@
 .post .post-title {  
+    margin-bottom: 8px;
 }
 
-.post .post-date {
+.post .post-info {
     margin-bottom: 24px;
     font-style: italic;
+
+    .post-author {
+        font-weight: 600;
+    }
 }
 
-.post p {
-    margin-bottom: 0.7em;
+.post-content {
+    font-size: 1rem;
+    p {
+        margin-bottom: 0.7em;
+    }
 }
