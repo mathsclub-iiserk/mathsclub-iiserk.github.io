@@ -23,28 +23,8 @@ nav a {
     }
 
     @media screen and (min-width: 700px) {
-        &:after {
-            position: absolute;
-            content: '';
-            left: 0;
-            right: 0;
-            bottom: -10px;
-            height: 4px;
-            background: #1B1BFF;
-            opacity: 0.7;
-
-            transform-origin: center;
-            transform: scaleX(0);
-
-            transition: 150ms transform ease;
-        }
-
         &.current:after {
             height: 0;
-        }
-
-        &:hover:after {
-            transform: scaleX(1.0);
         }
     }
 }

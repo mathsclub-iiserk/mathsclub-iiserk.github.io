@@ -19,7 +19,7 @@ title: Home
             {% if post.blurb %}
                 <div class="post-blurb">{{ post.blurb }}</div>
             {% endif %}
-            <a class="post-link read-more-link" href="{{ post.url | relative_url }}">Read more</a>
+            <a class="post-link read-more-link fancy" href="{{ post.url | relative_url }}">Read more</a>
         </div>
     </div>
 </div>
@@ -37,7 +37,7 @@ title: Home
             {% endfor %}
         </ul>
         {% if site.categories.announcements.size > 5 %}
-        <a class="read-more-link" href="{{ "/announcements/" | relative_url }}">See more</a>
+        <a class="read-more-link fancy" href="{{ "/announcements/" | relative_url }}">See more</a>
         {% endif %}
     </div>
 
@@ -54,7 +54,7 @@ title: Home
             {% endfor %}
         </ul>
         {% if site.categories.contests.size > 5 %}
-        <a class="read-more-link" href="{{ "/contests/" | relative_url }}">Older posts ...</a>
+        <a class="read-more-link fancy" href="{{ "/contests/" | relative_url }}">Older posts ...</a>
         {% endif %}
     </div>
 
@@ -71,7 +71,7 @@ title: Home
             {% endfor %}
         </ul>
         {% if site.categories.talks.size > 5 %}
-        <a class="read-more-link" href="{{ "/talks/" | relative_url }}">Older posts ...</a>
+        <a class="read-more-link fancy" href="{{ "/talks/" | relative_url }}">Older posts ...</a>
         {% endif %}
     </div>
 </div>
