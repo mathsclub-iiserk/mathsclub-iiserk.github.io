@@ -18,7 +18,8 @@ footer a:hover {
 .footer-wrapper {
     margin: 0 auto;
     padding: 24px 32px;
-    width: calc(min(100vw - 64px, 80ch));
+    width: calc(100vw - 64px);
+    max-width: 900px;
     
     display: flex;
     flex-direction: row;
