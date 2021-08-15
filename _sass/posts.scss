@@ -21,7 +21,7 @@
     .image-wrapper {
         margin: 24px 0;
 
-        img{
+        img {
             display: block; 
             margin: 0 auto;
             max-width: 100%;
@@ -31,6 +31,26 @@
             font-style: italic;
             text-align: center;
             margin-top: 16px;
+        }
+    }
+
+    .youtube-container {
+        margin: 24px 0;
+    }
+
+    .youtube-wrapper .youtube-container {
+        position: relative;
+        padding-bottom: 56.25%; /* 16:9 */
+        height: 0;
+        max-width: 100%;
+
+        iframe {
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
         }
     }
 }
