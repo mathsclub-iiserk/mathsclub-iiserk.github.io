@@ -37,6 +37,12 @@ quam tellus luctus leo, in lobortis diam mauris sed elit. Pellentesque ut ante
 nec lectus tincidunt eleifend. Mauris pellentesque dolor urna, a imperdiet diam
 malesuada in. Maecenas at elementum ante, vel commodo purus.
 
+{% include image.html 
+    url="https://source.unsplash.com/random/700x400?nature"
+    global=true 
+    caption="A random image of nature from Unsplash.com"
+%}
+
 Vivamus eget tempus mi. Duis aliquam semper quam, placerat eleifend felis
 fringilla nec. Integer bibendum aliquam libero in vulputate. Praesent non
 lectus vel tortor maximus tincidunt in eget neque. Maecenas tempus sed ante in

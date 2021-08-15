@@ -13,7 +13,24 @@
 
 .post-content {
     font-size: 1rem;
+
     p {
         margin-bottom: 0.7em;
+    }
+
+    .image-wrapper {
+        margin: 24px 0;
+
+        img{
+            display: block; 
+            margin: 0 auto;
+            max-width: 100%;
+        }
+
+        .caption {
+            font-style: italic;
+            text-align: center;
+            margin-top: 16px;
+        }
     }
 }

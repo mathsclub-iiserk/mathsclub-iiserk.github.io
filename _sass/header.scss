@@ -189,6 +189,6 @@
     }
 
     .header input#menu:checked ~ nav {
-        max-height: 100%;
+        max-height: unset;
     }
 }
