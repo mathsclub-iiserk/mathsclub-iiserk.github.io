@@ -19,6 +19,13 @@
                     display: block;
                 }
             }
+            .dot {
+                content: '·';
+                opacity: 0.5;
+                @media screen and (max-width: 700px) {
+                    display: none;
+                }
+            }
         }
     }
     

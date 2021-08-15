@@ -19,7 +19,7 @@ a {
 
 a:hover {
     color: #222222;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 .container {
@@ -48,7 +48,7 @@ a:hover {
     .post-date {
         display: inline-block;
         width: 115px;
-        
+
         font-style: italic;
         
         &:after {

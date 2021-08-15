@@ -41,6 +41,8 @@
         height: 48px;
         width: 48px;
 
+        transform: translateY(-4px);
+
         .bulb {
             fill: #FFA900;
             transition: fill .2s ease;
@@ -105,13 +107,23 @@
 
     margin-top: 8px;
     text-align: right;
+    
+}
+
+.header #menulabel {
+    grid-area: menubutton;
+    display: none;
+}
+
+.header input#menu {
+    display: none;
 }
 
 @media screen and (max-width: 700px) {
     .header {
-        grid-template-areas: "logo dyk"
-                             "nav  nav";
-        grid-template-columns: 1fr 48px;
+        grid-template-areas: "logo dyk menubutton"
+                             "nav  nav nav";
+        grid-template-columns: 1fr 48px 42px;
     }
     .header .main-logo {
         flex-direction: column;
@@ -121,7 +133,61 @@
     .header .did-you-know {
         margin: 0;
     }
+
+    .header #menulabel {
+        position: relative;
+        display: block;
+        box-sizing: border-box;
+        cursor: pointer;
+        width: 24px;
+        height: 20px;
+        margin: 8px;
+
+        transition: 150ms transform ease;
+
+        div {
+            position: absolute;
+            display: block;
+            width: 24px;
+            height: 2px;
+            background: #000000;
+
+            transition: 150ms transform ease;
+        }
+        .first {
+            top: 0;
+        }
+        .second {
+            top: 9px;
+        }
+        .third {
+            bottom: 0;
+        }
+    }
+
+    .header input#menu:checked +label {
+        transform: rotate(90deg);
+
+        .second {
+            opacity: 0;    
+        }
+        .first {
+            top: 9px;
+            transform: rotate(45deg);
+        }
+        .third {
+            top: 9px;
+            transform: rotate(-45deg);
+        }
+    }
+
     .header nav {
         text-align: left;
+        max-height: 0;
+        overflow: hidden;
+    }
+
+    .header input#menu:checked ~ nav {
+        max-height: 100%;
     }
 }

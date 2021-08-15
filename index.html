@@ -12,6 +12,7 @@ title: Home
             <div class="post-info">
                 <div class="post-date">{{ post.date | date: "%d %b %Y" }}</div>
                 {% if post.author %}
+                    <div class="dot"></div>
                     <div class="post-author">{{ post.author }}</div>
                 {% endif %}
             </div>
