@@ -203,15 +203,15 @@ perpendicular to the plane.
 
 In particular, $\boldsymbol{r}$ is perpendicular to both $\boldsymbol{a}_1$ and
 $\boldsymbol{a}_2$. We write this in terms of the dot product: $\boldsymbol{a}_1
-\cdot \boldsymbol{r} = 0$ and $\boldsymbol{a}_2 \cdot \boldsymbol{r} = 0$. Noting
-that 
+\cdot \boldsymbol{r} = 0$ and $\boldsymbol{a}_2 \cdot \boldsymbol{r} = 0$.
+The dot product can be rewritten in the form
 
 $$
     \boldsymbol{v}\cdot\boldsymbol{w} = \sum_{i = 1}^n v_iw_i =
-    \boldsymbol{v}^\top\boldsymbol{w}
+    \boldsymbol{v}^\top\boldsymbol{w}.
 $$
 
-In general, we express our perpendicularity condition as $A^\top \boldsymbol{r} =
+Thus, we express our perpendicularity condition as $A^\top \boldsymbol{r} =
 \boldsymbol{0}$. This means that 
 
 $$
