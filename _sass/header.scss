@@ -1,3 +1,11 @@
+.header-container {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.95);
+    @media screen and (max-width: 1000px) {
+        background: #F9F9F9;
+    }
+}
+
 .header {
     margin: 0 auto;
     padding: 24px 32px;
@@ -8,7 +16,6 @@
     grid-template-areas: "logo nav dyk";
     grid-template-columns: auto auto 48px;
     align-items: center;
-
 }
 
 .header .main-logo {
@@ -35,7 +42,7 @@
 
     position: relative;
     margin: 4px 0 0 16px;
-        font-style: italic;
+    font-style: italic;
 
 
     #dyk {
@@ -79,27 +86,14 @@
 
     &:hover .fact-box {
         display: block;
-        top: calc(100% + 12px);
+        top: calc(100% + 4px);
         right: -8px;
         width: 24ch;
-        max-width: calc(100vw - 64px);
+        max-width: calc(100vw - 92px);
         padding: 12px;
         background: #ffffff;
-        border-radius: 3px;
+        border-radius: 8px;
         border: solid 2px #999999;
-
-        &:after {
-            position: absolute;
-            content: '';
-            background: #ffffff;
-            width: 8px;
-            height: 8px;
-            top: -6px;
-            right: 8px;
-            transform: rotate(45deg);
-            border-top: solid 2px #999999;
-            border-left: solid 2px #999999;
-        }
     }
 }
 
@@ -133,6 +127,14 @@
     
     .header .did-you-know {
         margin: 0;
+    
+        &:hover .fact-box {
+            right: -32px;
+        }
+    }
+
+    .header .fancy:after {
+        display: none;
     }
 
     .header #menulabel {

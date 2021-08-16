@@ -4,7 +4,12 @@
 }
 
 body {
-    background: #F9F9F9;
+    background-image: url($baseurl + "/assets/images/maths.jpg");
+    background-repeat: repeat;
+    
+    @media screen and (max-width: 1000px) {
+        background: #F9F9F9;
+    }
 }
 
 hr {
@@ -32,7 +37,7 @@ a {
         height: 8px;
         background: #1D1DBD;
         opacity: 0.3;
-        z-index: -1;
+        z-index: 1;
 
         transform-origin: bottom right;
         transform: scaleX(0);
@@ -54,12 +59,21 @@ a {
 }
 
 .content {
+    background: rgba(255, 255, 255, 0.95);
+
     position: relative;
     width: calc(100vw - 64px);
     max-width: 900px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 48px auto;
     padding: 32px 32px;
+
+    border-radius: 8px;
+    
+    @media screen and (max-width: 1000px) {
+        margin: 0 auto;
+        border-radius: 0;
+        background: #F9F9F9;
+    }
 }
 
 .post-block {

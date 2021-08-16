@@ -1,23 +1,20 @@
 <footer>
-<hr>
-    <div class="footer-wrapper">
-        <div class="footer-nav">
-            <h3>Navigation</h3>
-            {% for item in site.data.navigation %}
-            <a href="{{ item.link | relative_url }}" {% if page.url == item.link %}class="current"{% endif %}>
-                {{ item.name }}
-            </a>
-            {% endfor %}
-        </div>
-        
-        <div class="footer-contact">
-            <h3>Contact</h3>
-            <a href="mailto:ss19ms154@iiserkol.ac.in">ss19ms154@iiserkol.ac.in</a>
-        </div>
-        
-        <div class="footer-image">
-            <img id="iiser" src="{{ "assets/images/logo_flat.svg" | relative_url }}" alt="IISER Kolkata">
-            <img id="dms" src="{{ "assets/images/dms_logo.svg" | relative_url }}" alt="DMS, IISER Kolkata">
-        </div>
+    <div class="footer-nav">
+        <h3>Navigation</h3>
+        {% for item in site.data.navigation %}
+        <a href="{{ item.link | relative_url }}" {% if page.url == item.link %}class="current"{% endif %}>
+            {{ item.name }}
+        </a>
+        {% endfor %}
+    </div>
+    
+    <div class="footer-contact">
+        <h3>Contact</h3>
+        <a href="mailto:maths.club@iiserkol.ac.in">maths.club@iiserkol.ac.in</a>
+    </div>
+    
+    <div class="footer-image">
+        <a href="https://www.iiserkol.ac.in/" title="IISER Kolkata" target="_blank"><img id="iiser" src="{{ "assets/images/logo_flat.svg" | relative_url }}" alt="IISER Kolkata"></a>
+        <a href="https://math.iiserkol.ac.in/" title="DMS, IISER Kolkata" target="_blank"><img id="dms" src="{{ "assets/images/dms_logo.svg" | relative_url }}" alt="DMS, IISER Kolkata"></a>
     </div>
 </footer>

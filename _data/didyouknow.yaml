@@ -1,12 +1,62 @@
-- fact: "There are infinitely many primes. As a result, there are infinitely
-        many odd numbers!"
-- fact: "The number 1729 is called Ramanujan's number, ever since he noticed
-        that this is the smallest integer which can be expressed as the sum of two
-        positive integer cubes in two different ways!"
-- fact: "All positive integers are interesting.
-        Proof: Assume the contrary.
-        Then there is a lowest non-interesting positive integer. But, hey, that's
-        pretty interesting! A contradiction."
-- fact: "Contributions to this section are welcome!"
-
-
+- fact: >
+        All positive integers are interesting. Proof: Assume the contrary.
+        Then there is a lowest non-interesting positive integer. But, hey,
+        that's pretty interesting! A contradiction.
+- fact: >
+        The greenhouse effect was discovered by Joseph Fourier in 1824.
+- fact: >
+        There are infinitely many composite numbers. For a proof, suppose there
+        are finitely many.  Multiply them and most importantly, do not add one.
+        This is a new composite number, a contradiction!
+- fact: >
+        What is an anagram of Banach-Tarski? Banach-Tarski Banach-Tarski.
+- fact: >
+        Wiener was once invited to lecture in China. He wanted to begin his
+        first lecture with a little Chinese, so he spoke some words. The
+        Chinese listened very politely. It was later observed that what Wiener
+        actually said was "The cow is green."
+- fact: >
+        After John Nash won the Nobel Prize for Economics in 1994, a small
+        ceremony was held in the Fine Hall Common Room at Princeton University.
+        Nash was persuaded to make a few remarks. His first was, "I hope that
+        getting the Nobel will improve my credit rating, because I really want
+        a credit card."
+- fact: >
+        Erdos liked to joke about death, and about senility. He frequently made
+        jokes about the loss of brain power.  Attributed to Erdos (but perhaps
+        originated from Ulam) are the three steps in the mental degeneration of
+        a mathematician: <br>
+        • First you forget your theorems.<br>
+        • Next you forget to zip up.<br>
+        • Last you forget to zip down.
+- fact: >
+        Many years ago, Gerhard Hochschild, who set high standards for himself
+        and for everyone else, submitted a paper to the Annals. The referee's
+        report said, "Good enough for the Annals. Not good enough for
+        Hochschild.  Rejected."
+- fact: >
+        Paul J. Cohen (Fields Medalist, 1966), who was a professor at Stanford
+        University for many years, always liked to complain about how lazy the
+        students were. One day he fell asleep in his office. In fact he slept
+        through the class he was supposed to teach. Then he went to the office
+        of his neighbor to complain about how lazy the students are. He
+        followed this by returning to his office and going back to sleep.
+- fact: >
+        Bertrand Russell was once asked whether he was prepared to die for his
+        beliefs. "Of course not," he replied immediately. "After all, I may be
+        wrong."
+- fact: >
+        Littlewood once challenged Hardy to find a misprint in one of their
+        joint papers. His collaborator was unable to do so. In fact, the
+        misprint was in his own name: "G, H. Hardy."
+- fact: >
+        Archimedes was devoted to his mathematics, and the lack of a convenient
+        writing surface was hardly sufficient to hinder his efforts. After
+        leaving his bath he would anoint his body with olive oil, and then
+        trace his calculations with a fingernail on the oily skin.
+- fact: >
+        In the 1930's and 1940's, a theorem was "true in the sense of Henri
+        Cartan" if Grauert could not find a counterexample in the space of an
+        hour.
+- fact: >
+        Paul Erdos had a simple motto: Another roof, another proof.

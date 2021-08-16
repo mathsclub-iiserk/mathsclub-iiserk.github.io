@@ -1,26 +1,22 @@
 footer {
     position: relative;
     bottom: 0;
-    margin-top: auto;
     width: 100%;
-    
-    background: #F2F3FA;
-}
-
-footer a.current {
-    color: #222222;
-}
-
-footer a:hover {
-    text-decoration: none;
-}
-
-.footer-wrapper {
-    margin: 0 auto;
-    padding: 24px 32px;
     width: calc(100vw - 64px);
     max-width: 900px;
+    margin: auto auto 0 auto;
+    padding: 24px 32px;
+    border-radius: 8px 8px 0 0;
     
+    background: rgba(255, 255, 255, 0.95);
+
+    @media screen and (max-width: 1000px) {
+        background: #F3F8FF;
+        border-top: solid 1px #AAAAAA;
+        max-width: 100vw;
+        border-radius: 0;
+    }
+
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -31,7 +27,15 @@ footer a:hover {
     }
 }
 
-.footer-wrapper div {
+footer a.current {
+    color: #222222;
+}
+
+footer a:hover {
+    text-decoration: none;
+}
+
+footer div {
     margin: 16px 0;
 }
 
