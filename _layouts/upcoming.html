@@ -27,7 +27,10 @@
                     {% if page.author %}
                         <div class="post-author">{{ page.author }}</div>
                     {% endif %}
-                    <div class="post-date">{{ page.date | date: "%A %-d %B, %Y"}}</div>
+                    <div class="post-date">{{ page.futuredate | date: "%A %-d %B, %Y"}}</div>
+                    {% if page.futuretime %}
+                        <div class="post-time">{{ page.futuretime }}</div>
+                    {% endif %}
                     {% if page.tags.size > 0 %}
                         Tags: 
                         {% for tag in page.tags %}
@@ -65,4 +68,5 @@
             {% endif %}
         </body>
 </html>
+
 

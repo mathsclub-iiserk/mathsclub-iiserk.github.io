@@ -9,6 +9,13 @@
     .post-author {
         font-weight: 600;
     }
+    
+    .post-tag:after {
+        content: ',';
+    }
+    .post-tag:last-child:after {
+        content: '';
+    }
 }
 
 .post-content {

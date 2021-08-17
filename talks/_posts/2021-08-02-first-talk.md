@@ -5,6 +5,7 @@ title: "On Starting a Mathematics Club"
 author: "Nicolas Bourbaki"
 blurb: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
 eiusmodtempor incididunt ut labore et dolore magna aliqua."
+tags: talk
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec porta venenatis

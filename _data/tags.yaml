@@ -1,0 +1,12 @@
+article:
+    name: Articles
+    link: "/articles/"
+talk:
+    name: Talks
+    link: /talks/
+whatis:
+    name: What is ... ?
+    link: /talks/
+monthlycontest:
+    name: Monthly Contests
+    link: /contests/

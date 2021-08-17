@@ -1,4 +1,14 @@
-.first-post {
+.content hr {
+    margin: 32px 0;
+    margin-left: -32px;
+    width: calc(100% + 64px);
+}
+
+.prominent-post-container {
+    // margin-bottom: 32px;
+}
+
+.prominent-post {
     margin-bottom: 16px;
 
     .post-title {
@@ -26,6 +36,13 @@
                     display: none;
                 }
             }
+
+            .post-tag:after {
+                content: ',';
+            }
+            .post-tag:last-child:after {
+                content: '';
+            }
         }
     }
     
@@ -45,7 +62,7 @@
 
     .post-block {
         flex: 40% 1 1;
-        margin: 24px 0;
+        margin-bottom: 24px;
         padding-right: 16px;
     }
     

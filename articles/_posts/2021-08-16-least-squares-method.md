@@ -3,6 +3,7 @@ layout: post
 title: Visualizing the Method of Least Squares
 author: Satvik Saha
 blurb: A geometric perspective, with a little intuition and linear algebra.
+tags: article
 katex: true
 ---
 
