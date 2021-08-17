@@ -1,0 +1,12 @@
+<div class="about-card">
+    <div class="profile-photo-container">
+        {% if include.photo %}
+        <img class="profile-photo" src="{{ "/assets/images/profile/" | append: include.photo | relative_url }}" alt="">
+        {% else %}
+        <img class="profile-photo" src="{{ "/assets/images/profile/" | append: "profile.png" | relative_url }}" alt="">
+        {% endif %}
+    </div>
+    <h3 class="name">{{ include.name }}</h3>
+    <div class="batch">{{ include.batch }}</div>
+    <div class="description">{{ include.description }}</div>
+</div>
