@@ -1,12 +1,18 @@
 article:
     name: Articles
-    link: "/articles/"
+    link: /articles/
 talk:
     name: Talks
     link: /talks/
 whatis:
     name: What is ... ?
-    link: /talks/
+    link: /talks/#what-is--
+research:
+    name: Modern research
+    link: /talks/#modern-research
+proof:
+    name: Proof
+    link: /talks/#proof
 monthlycontest:
     name: Monthly Contests
     link: /contests/

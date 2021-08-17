@@ -4,9 +4,13 @@ title: Monthly Contests
 permalink: /contests/
 ---
 
-<div class="post-block">
-    <h1>Monthly Contests</h1>
+# Monthly Contests
 
+This is an archive of all monthly contests organized by the club. Every month,
+an interesting problem is posted; solutions are received over a period of 3
+weeks. The best solutions are awarded and shared by the end of the month.
+
+<div class="post-block">
     <ul>
         {% for post in site.categories.contests %}
             <li>

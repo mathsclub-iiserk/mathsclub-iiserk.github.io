@@ -4,9 +4,11 @@ title: Articles
 permalink: /articles/
 ---
 
-<div class="post-block">
-    <h1>Articles</h1>
+# Articles
 
+This section lists all the articles submitted to this club.
+
+<div class="post-block">
     <ul>
         {% for post in site.categories.articles %}
             <li>

@@ -1,0 +1,12 @@
+- title: Articles
+  index: articles
+  link: /articles/
+- title: Monthly Contests
+  index: contests
+  link: /contests/
+- title: Talks and Demos
+  index: talks
+  link: /talks/
+  upcoming:
+      - whatis
+      - research

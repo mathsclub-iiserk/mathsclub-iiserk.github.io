@@ -9,7 +9,7 @@ blurb: >
     sub-fields of modern geometry, I shall give a crash course on the differential
     geometry of curves and surfaces. In particular, I hope to state Theorem
     Egregium, the Gauss-Bonnet theorem, and the Uniformisation theorem.
-tag: whatis
+tags: talk whatis
 ---
 
 

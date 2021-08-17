@@ -10,7 +10,7 @@ title: Home
     <h2>Coming up</h2>
     {% assign posts = site.categories.upcoming | reverse %}
     {% for post in posts %}
-    {% unless post.done %}
+    {% unless post.tags contains "done" %}
     <div class="upcoming-post prominent-post">
         <h1 class="post-title">{{ post.title }}</h1>
         <div class="post-details">
@@ -19,7 +19,7 @@ title: Home
                     <div class="post-author">{{ post.author }}</div>
                     <div class="dot">•</div>
                 {% endif %}
-                <div class="post-date">{{ post.futuredate | date: "%A %-d %b %Y" }}</div>
+                <div class="post-date">{{ post.futuredate | date: "%a %-d %b, %Y" }}</div>
                 {% if post.futuretime %}
                     <div class="dot">•</div>
                     <div class="post-time">{{ post.futuretime }}</div>
@@ -59,7 +59,7 @@ title: Home
                     <div class="post-author">{{ post.author }}</div>
                     <div class="dot">•</div>
                 {% endif %}
-                <div class="post-date">{{ post.date | date: "%A %-d %b %Y" }}</div>
+                <div class="post-date">{{ post.date | date: "%a %-d %b, %Y" }}</div>
                 {% if post.tags.size > 0 %}
                     <div class="dot">•</div>
                     {% for tag in post.tags %}
@@ -82,70 +82,31 @@ title: Home
 <hr>
 
 <div class="post-blocks">
+    {% for category in site.data.homecategories %}
     <div class="post-block">
-        <h2>Announcements</h2>
+        <h2>{{ category.title }}</h2>
 
         <ul>
-            {% for post in site.categories.announcements limit:5 %}
+            {% for tag in category.upcoming %}
+                {% assign posts = site.categories.upcoming | where: "tags", tag %}
+                {% for post in posts %}
+                {% unless post.tags contains "done" %}
+                    <li>
+                        <span class="post-date"> {{ post.futuredate | date: "%d %b %Y" }} </span>
+                        <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title }}</a>
+                    </li>
+                {% endunless %}
+                {% endfor %}
+            {% endfor %}
+
+            {% for post in site.categories[category.index] limit:5 %}
                 <li>
                     <span class="post-date"> {{ post.date | date: "%d %b %Y" }} </span>
                     <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title }}</a>
                 </li>
             {% endfor %}
         </ul>
-        {% if site.categories.announcements.size > 5 %}
-        <a class="read-more-link fancy" href="{{ "/announcements/" | relative_url }}">See more</a>
-        {% endif %}
+        <a class="read-more-link fancy" href="{{ category.link | relative_url }}">See all</a>
     </div>
-
-    <div class="post-block">
-        <h2>Articles</h2>
-
-        <ul>
-            {% for post in site.categories.articles limit:5 %}
-            {% capture total %} {{ forloop.length }} {% endcapture %}
-                <li>
-                    <span class="post-date"> {{ post.date | date: "%d %b %Y" }} </span>
-                    <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title }}</a>
-                </li>
-            {% endfor %}
-        </ul>
-        {% if site.categories.contests.size > 5 %}
-        <a class="read-more-link fancy" href="{{ "/articles/" | relative_url }}">Older posts ...</a>
-        {% endif %}
-    </div>
-
-    <div class="post-block">
-        <h2>Monthly Contests</h2>
-
-        <ul>
-            {% for post in site.categories.contests limit:5 %}
-            {% capture total %} {{ forloop.length }} {% endcapture %}
-                <li>
-                    <span class="post-date"> {{ post.date | date: "%d %b %Y" }} </span>
-                    <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title }}</a>
-                </li>
-            {% endfor %}
-        </ul>
-        {% if site.categories.contests.size > 5 %}
-        <a class="read-more-link fancy" href="{{ "/contests/" | relative_url }}">Older posts ...</a>
-        {% endif %}
-    </div>
-
-    <div class="post-block">
-        <h2>Talks and Demos</h2>
-
-        <ul>
-            {% for post in site.categories.talks limit:5 %}
-            {% capture total %} {{ forloop.length }} {% endcapture %}
-                <li>
-                    <span class="post-date"> {{ post.date | date: "%d %b %Y" }} </span>
-                    <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title }}</a>
-                </li>
-            {% endfor %}
-        </ul>
-        {% if site.categories.talks.size > 5 %}
-        <a class="read-more-link fancy" href="{{ "/talks/" | relative_url }}">Older posts ...</a>
-        {% endif %}
-    </div>
+    {% endfor %}
 </div>
