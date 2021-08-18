@@ -5,7 +5,7 @@ footer {
     width: calc(100vw - 64px);
     max-width: 900px;
     margin: auto auto 0 auto;
-    padding: 24px 32px;
+    padding: 24px 32px 0 32px;
     border-radius: 8px 8px 0 0;
     
     background: rgba(255, 255, 255, 0.95);
@@ -35,11 +35,8 @@ footer a:hover {
     text-decoration: none;
 }
 
-footer div {
+footer > div {
     margin: 16px 0;
-}
-
-.footer-nav, .footer-contact {
     display: flex;
     flex-direction: column;
 }
@@ -48,19 +45,17 @@ footer div {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    align-items: baseline;
-}
+    align-items: flex-end;
+    margin-top: 8px;
 
-.footer-image {
     #iiser {
-        width: 64px;
-        height: 64px;
+        width: 54px;
+        height: 54px;
         margin-right: 24px;
     }
 
     #dms {
         width: 84px;
         height: 54px;
-        margin-right: 24px;
     }
 }

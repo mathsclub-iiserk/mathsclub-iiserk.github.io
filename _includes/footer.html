@@ -8,13 +8,21 @@
         {% endfor %}
     </div>
     
+    <div class="footer-categories">
+        <h3>Categories</h3>
+        {% for item in site.data.homecategories %}
+        <a href="{{ item.link | relative_url }}" {% if page.url == item.link %}class="current"{% endif %}>
+            {{ item.title }}
+        </a>
+        {% endfor %}
+    </div>
+    
     <div class="footer-contact">
         <h3>Contact</h3>
         <a href="mailto:maths.club@iiserkol.ac.in">maths.club@iiserkol.ac.in</a>
-    </div>
-    
-    <div class="footer-image">
-        <a href="https://www.iiserkol.ac.in/" title="IISER Kolkata" target="_blank"><img id="iiser" src="{{ "assets/images/logo_flat.svg" | relative_url }}" alt="IISER Kolkata"></a>
-        <a href="https://math.iiserkol.ac.in/" title="DMS, IISER Kolkata" target="_blank"><img id="dms" src="{{ "assets/images/dms_logo.svg" | relative_url }}" alt="DMS, IISER Kolkata"></a>
+        <div class="footer-image">
+            <a href="https://www.iiserkol.ac.in/" title="IISER Kolkata" target="_blank"><img id="iiser" src="{{ "assets/images/logo_flat.svg" | relative_url }}" alt="IISER Kolkata"></a>
+            <a href="https://math.iiserkol.ac.in/" title="DMS, IISER Kolkata" target="_blank"><img id="dms" src="{{ "assets/images/dms_logo.svg" | relative_url }}" alt="DMS, IISER Kolkata"></a>
+        </div>
     </div>
 </footer>
