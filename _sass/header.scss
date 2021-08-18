@@ -194,3 +194,27 @@
         max-height: unset;
     }
 }
+
+@media screen and (min-width: 700px) {
+    .header-container {
+        position: relative;
+
+        &:after {
+            position: absolute;
+            content: '';
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            z-index: -1;
+
+            background: #FFFFFF;
+            opacity: 0;
+            transition: 500ms opacity ease;
+        }
+
+        &:hover:after {
+            opacity: 0.6;
+        }
+    }
+}

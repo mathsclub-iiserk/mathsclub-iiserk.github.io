@@ -16,15 +16,6 @@ footer {
         max-width: 100vw;
         border-radius: 0;
     }
-
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-content: flex-start;
-    
-    @media screen and (max-width: 700px) {
-        flex-direction: column;
-    }
 }
 
 footer a.current {
@@ -35,13 +26,24 @@ footer a:hover {
     text-decoration: none;
 }
 
-footer > div {
+.footer-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: flex-start;
+    
+    @media screen and (max-width: 700px) {
+        flex-direction: column;
+    }
+}
+
+.footer-row > div {
     margin: 16px 0;
     display: flex;
     flex-direction: column;
 }
 
-.footer-image {
+.footer-contact .footer-image {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -57,5 +59,12 @@ footer > div {
     #dms {
         width: 84px;
         height: 54px;
+    }
+}
+
+.credits {
+    div {
+        margin: 4px 0;
+        font-size: 12px;
     }
 }

@@ -4,10 +4,6 @@
     width: calc(100% + 64px);
 }
 
-.prominent-post-container {
-    // margin-bottom: 32px;
-}
-
 .prominent-post {
     margin-bottom: 16px;
 
@@ -62,12 +58,36 @@
 
     .post-block {
         flex: 40% 1 1;
-        margin-bottom: 24px;
-        padding-right: 16px;
+        margin: 0 16px 24px 0;
     }
     
     @media screen and (max-width: 700px) {
         display: block;
         margin-top: 32px;
+        margin-right: 0;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    .prominent-post-container {
+        position: relative;
+
+        &:after {
+            position: absolute;
+            content: '';
+            left: -32px;
+            right: -32px;
+            top: -32px;
+            bottom: -32px;
+            z-index: -1;
+
+            background: #FFFFFF;
+            opacity: 0;
+            transition: 500ms opacity ease;
+        }
+
+        &:hover:after {
+            opacity: 0.6;
+        }
     }
 }
