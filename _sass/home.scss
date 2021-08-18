@@ -4,6 +4,10 @@
     width: calc(100% + 64px);
 }
 
+.read-more-link {
+    font-family: "Open Sans", sans-serif;
+}
+
 .prominent-post {
     margin-bottom: 16px;
 
@@ -17,6 +21,10 @@
             margin-bottom: 8px;
             
             font-style: italic;
+
+            .post-author {
+                font-weight: bold;
+            }
 
             div {
                 display: inline-block;
@@ -43,11 +51,15 @@
     }
     
     .post-blurb {
-        margin-bottom: 8px;
+        margin-bottom: 16px;
     }
 
     .read-more-link {
         font-weight: bold;
+    }
+
+    &:hover .read-more-link {
+        filter: brightness(1.5);
     }
 }
 
