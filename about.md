@@ -6,24 +6,26 @@ permalink: /about/
 
 # About us
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-culpa qui officia deserunt mollit anim id est laborum.
+We are _Identity_, the _Maths Club of IISER Kolkata_; closely tied with the
+_Department of Mathematics and Statistics, IISER Kolkata_. Welcome to our
+official website!
 
+_Identity_ is an initiative to bring exposition and discourse on interesting
+topics in maths to a wider audience. We host talks delivered by experts in
+various fields in mathematics, publish articles and short video demonstrations,
+and hold monthly problem-solving contests. Our content is geared mostly towards
+undergraduate students, but can be enjoyed by anyone with a basic understanding
+and appreciation for mathematics.
 
 ## The core committee
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua.
-
 
 <div class="about-card-container">
     {% include aboutcard.html
         name="Sroyon Sengupta"
         batch="17MS"
+        description="Vocalist, trekker, swimmer. <br>
+            Interests: Number Theory. <br>
+            Currently working on Goldbach's Weak Conjecture."
     %}
 
     {% include aboutcard.html
@@ -37,8 +39,9 @@ incididunt ut labore et dolore magna aliqua.
     %}
 
     {% include aboutcard.html
+        photo="satvik.jpeg"
         name="Satvik Saha"
         batch="19MS"
-        description="Web designing, editing"
+        description="Amateur chess player, violinist, web designer."
     %}
 </div>

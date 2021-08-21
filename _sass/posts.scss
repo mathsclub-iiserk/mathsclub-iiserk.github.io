@@ -1,3 +1,11 @@
+.post li {
+    list-style-position: inside;
+}
+
+.post ul, ol {
+    margin-bottom: 12px;
+}
+
 .post .post-title {  
     margin-bottom: 8px;
 }

@@ -26,13 +26,13 @@
                 font-weight: bold;
             }
 
-            div {
+            & > div {
                 display: inline-block;
-                
                 @media screen and (max-width: 700px) {
                     display: block;
                 }
             }
+
             .dot {
                 margin: 0 8px;
                 opacity: 0.4;

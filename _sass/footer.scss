@@ -47,24 +47,21 @@ footer a:hover {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    align-items: flex-end;
+    align-items: center;
     margin-top: 8px;
 
-    #iiser {
-        width: 54px;
-        height: 54px;
+    #youtube {
+        height: 32px;
         margin-right: 24px;
     }
 
-    #dms {
-        width: 84px;
-        height: 54px;
+    #iiser {
+        height: 48px;
+        margin-right: 14px;
+        margin-bottom: 8px;
     }
-}
 
-.credits {
-    div {
-        margin: 4px 0;
-        font-size: 12px;
+    #dms {
+        height: 28px;
     }
 }

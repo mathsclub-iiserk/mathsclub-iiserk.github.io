@@ -1,8 +1,16 @@
 <div class="image-wrapper">
     {% if include.global %}
-    <img src="{{ include.url }}" alt="{{ include.alt }}">
+    <img src="{{ include.url }}" 
+        {% if include.width %}
+        style="width: {{ include.width }}"
+        {% endif %}
+        alt="{{ include.alt }}">
     {% else %}
-    <img src="{{ "/assets/images/" | append: include.url | relative_url }}" alt="{{ include.alt }}">
+    <img src="{{ "/assets/images/" | append: include.url | relative_url }}" 
+        {% if include.width %}
+        style="width: {{ include.width }}"
+        {% endif %}
+        alt="{{ include.alt }}">
     {% endif %}
 
     {% if include.caption %}
