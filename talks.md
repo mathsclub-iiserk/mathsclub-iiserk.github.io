@@ -11,7 +11,7 @@ This section lists all the talks and video demonstrations organized by this club
 ## What is ... ?
 
 This series of talks is aimed primarily towards 2nd and 3rd year
-undergraduates. Each seminar expands upon a particular topic or object of
+undergraduates. Each lecture expands upon a particular topic or object of
 interest in mathematics, in a way that anyone with a basic knowledge of maths
 should be able to enjoy and appreciate.
 

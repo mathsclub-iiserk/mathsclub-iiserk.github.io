@@ -21,6 +21,7 @@ and appreciation for mathematics.
 
 <div class="about-card-container">
     {% include aboutcard.html
+        photo="sroyon.jpeg"
         name="Sroyon Sengupta"
         batch="17MS"
         description="Vocalist, trekker, swimmer. <br>
@@ -34,8 +35,10 @@ and appreciation for mathematics.
     %}
 
     {% include aboutcard.html
+        photo="akash.jpeg"
         name="Akash Chandra Behera"
         batch="19MS"
+        description="Cyclist, video editor, amateur photographer, techie."
     %}
 
     {% include aboutcard.html
