@@ -69,7 +69,7 @@ title: Home
                 {% endif %}
             </div>
             {% if post.blurb %}
-                <div class="post-blurb">{{ post.blurb }}</div>
+                <div class="post-blurb">{{ post.blurb | markdownify }}</div>
             {% endif %}
             <a class="post-link read-more-link fancy" href="{{ post.url | relative_url }}">Read more</a>
         </div>
