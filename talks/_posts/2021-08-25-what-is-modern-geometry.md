@@ -2,7 +2,6 @@
 layout: post
 title: What is Modern Geometry about?
 author: Dr. Vamsi P. Pingali
-<!-- futuretime: To be decided -->
 blurb: >
     _Abstract:_ After a quick overview of the history of geometry, and an outline of the
     sub-fields of modern geometry, I shall give a crash course on the differential
@@ -13,7 +12,7 @@ tags: talk whatis
 
 Video recording coming soon!
 
-[Lecture slides]({{ "/assets/slides/2021-08-25-modern-geometry.pdf" | relative_url }})
+[Lecture slides]({% link assets/slides/2021-08-25-modern-geometry.pdf %})
 
 ## Abstract
 

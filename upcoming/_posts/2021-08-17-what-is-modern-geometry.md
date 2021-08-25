@@ -4,7 +4,6 @@ title: What is Modern Geometry about?
 author: Dr. Vamsi P. Pingali
 futuredate: 25 August, 2021
 futuretime: 4 - 5 PM
-<!-- futuretime: To be decided -->
 blurb: >
     _Abstract:_ After a quick overview of the history of geometry, and an outline of the
     sub-fields of modern geometry, I shall give a crash course on the differential
