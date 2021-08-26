@@ -23,7 +23,7 @@ Instead, we want to find the line which minimizes our error, with all our data
 points lying as close to the line as possible. 
 
 {% include image.html 
-    url="articles/2021-08-16/linear_fit.png"
+    url="articles/2021-08-16/linear_fit.svg"
     caption="The red line of best fit is chosen so as to minimize the squares
     of the deviatios from the data points in black."
 %}
@@ -95,7 +95,7 @@ solution $x = 3$, $y = 1$. Note that we didn't need to talk about deviations and
 least squares yet; our solution is exact.
 
 {% include image.html 
-    url="articles/2021-08-16/span_2d.png"
+    url="articles/2021-08-16/span_2d.svg"
     caption="The red vector is a linear combination of the blue and green vectors."
 %}
 
@@ -158,7 +158,7 @@ In order to see what's happening, let's look at the span of the column vectors
 $\boldsymbol{a}_1$ and $\boldsymbol{a}_2$.
 
 {% include image.html 
-    url="articles/2021-08-16/span_3d.png"
+    url="articles/2021-08-16/span_3d.svg"
     caption="The pink plane, which is understood to extend outwards in all
     directions, denotes the span of the blue and green vectors. Note that the
     target point $\boldsymbol{b}$ in red does not lie on this plane. It's
@@ -182,8 +182,8 @@ This is chosen in such a way that the corresponding point on the plane,
 $A\hat{\boldsymbol{x}}$, lies as close as possible to $\boldsymbol{b}$. Note that
 this corresponds to minimizing the square of the length $\Vert
 A\hat{\boldsymbol{x}} - \boldsymbol{b}\Vert^2$, which is exactly the sum of
-squares of deviations. Thus, we break down the vector $\boldsymbol{b}$ into the
-components
+squares of deviations componentwise. Thus, we break down the vector
+$\boldsymbol{b}$ into
 
 $$
     \boldsymbol{b} = A\hat{\boldsymbol{x}} + \boldsymbol{r}.
@@ -196,10 +196,10 @@ $\boldsymbol{b}$ onto the plane. Thus, the difference $\boldsymbol{r}$ must be
 perpendicular to the plane.
 
 {% include image.html 
-    url="articles/2021-08-16/span_3d_perp.png"
+    url="articles/2021-08-16/span_3d_perp.svg"
     caption="The closest point to $\boldsymbol{b}$ on the plane,
     $A\hat{\boldsymbol{x}}$, is its perpendicular projection. The vector
-    $\boldsymbol{r}$ is this orthogonal to the plane."
+    $\boldsymbol{r}$ is thus orthogonal to the plane."
 %}
 
 In particular, $\boldsymbol{r}$ is perpendicular to both $\boldsymbol{a}_1$ and
