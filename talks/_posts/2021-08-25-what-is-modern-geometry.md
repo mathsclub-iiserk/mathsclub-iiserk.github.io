@@ -10,7 +10,9 @@ blurb: >
 tags: talk whatis
 ---
 
-Video recording coming soon!
+{% include youtube.html
+    code="agQgiLb2K-0"
+%}
 
 [Lecture slides]({% link assets/slides/2021-08-25-modern-geometry.pdf %})
 
