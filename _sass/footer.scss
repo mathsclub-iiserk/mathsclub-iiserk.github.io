@@ -46,22 +46,37 @@ footer a:hover {
 .footer-contact .footer-image {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: flex-start;
     align-items: center;
-    margin-top: 8px;
+    margin-top: 12px;
 
     #youtube {
-        height: 32px;
+        height: 26px;
         margin-right: 24px;
+    }
+    
+    #facebook {
+        height: 28px;
+        margin-right: 24px;
+    }
+    
+    #twitter {
+        height: 30px;
+        margin-right: 24px;
+    }
+    
+    #instagram {
+        height: 28px;
     }
 
     #iiser {
-        height: 48px;
+        height: 40px;
         margin-right: 14px;
         margin-bottom: 8px;
     }
 
     #dms {
-        height: 28px;
+        height: 20px;
     }
 }

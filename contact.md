@@ -13,5 +13,8 @@ area closely tied with mathematics, do not hesitate to write to us!
 
 ## Links
 - [Our YouTube channel](https://www.youtube.com/channel/UCDxY-Qze-gkdggHEb0SCXeA)
+- [Our Facebook page](https://www.facebook.com/identity.iiserk/)
+- [Our Twitter page](https://twitter.com/identity_iiserk)
+- [Our Instagram page](https://www.instagram.com/identity.iiserk/)
 - [Indian Institute of Science Education and Research (IISER), Kolkata](https://www.iiserkol.ac.in)
 - [Department of Mathematics and Statistics, IISER Kolkata](https://math.iiserkol.ac.in)
