@@ -10,7 +10,9 @@ blurb: >
 tags: talk whatis
 ---
 
-_The recorded lecture will be uploaded soon!_
+{% include youtube.html
+    code="xZ0DAuiQbu0"
+%}
 
 [Lecture notes]({% link assets/slides/2021-10-20-integers.pdf %})
 

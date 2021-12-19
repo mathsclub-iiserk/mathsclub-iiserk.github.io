@@ -1,6 +1,6 @@
 ---
 layout: post
-title: October - Amity
+title: November - Amity
 author: Sohom Gupta
 blurb: >
     Today, we shall be taking a break from rigorous mathematics and be looking
@@ -238,4 +238,4 @@ _chesse_!"
 
 Send in your solutions at
 [maths.club@iiserkol.ac.in](mailto:maths.club@iiserkol.ac.in), with the subject
-_Monthly Contest: October_.
+_Monthly Contest: November_.
