@@ -7,6 +7,6 @@
 - title: Talks and Demos
   index: talks
   link: /talks/
-  upcoming:
-      - whatis
-      - research
+- title: Events
+  index: events
+  link: /events/

@@ -3,34 +3,11 @@ layout: home
 title: Home
 ---
 
-<div class="upcoming-post-container prominent-post-container">
-    <h2>Coming up</h2>
-    <div class="upcoming-post prominent-post">
-        <h1 class="post-title">Treasure Hunt</h1>
-        <div class="post-details">
-            <div class="post-info">
-                <div class="post-date">Wed 22 Dec, 2021</div>
-                <div class="dot">•</div>
-                <div class="post-time">10:00 AM</div>
-            </div>
-            <div class="post-blurb">
-                On the occasion of National Mathematics Day, we are conducting
-                an online Mathematics Treasure Hunt. This is a contest where
-                you have to follow and solve a trail of puzzles and problems,
-                and win by reaching the finish line! The winning team will
-                receive a prize of <i>Rs. 512</i> - click on the link below to
-                learn more.
-            </div>
-            <a class="post-link read-more-link fancy" href="./treasurehunt/">More details</a>
-        </div>
-    </div>
-</div>
-<hr>
-
 <!-- Upcoming events -->
 
 {% if site.categories.upcoming.size != site.tags.done.size %}
 <div class="upcoming-post-container prominent-post-container">
+    <h2>Coming up</h2>
     {% assign posts = site.categories.upcoming | reverse %}
     {% for post in posts %}
     {% unless post.tags contains "done" %}

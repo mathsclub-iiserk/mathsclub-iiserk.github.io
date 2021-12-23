@@ -1,28 +1,21 @@
 ---
-layout: upcoming
+layout: post
 title: On a Problem of Isometry
 author: Dr. Saugata Bandyopadhyay
-futuredate: 22 December, 2021
-futuretime: 5:00 - 6:00 PM
 blurb: >
     _Abstract:_ In this expository talk, we discuss Aleksandrov's question of
     whether the existence of a single conservative distance for a mapping
     implies that the mapping is an isometry.
-tags: talk research done
+tags: talk research
 ---
 
+_The recorded lecture will be uploaded soon!_
 
 ## Abstract
 
 In this expository talk, we discuss Aleksandrov's question of whether the
 existence of a single conservative distance for a mapping implies that the
 mapping is an isometry.
-
-## Details
-
-- Date: _Wednesday, 22 December, 2021_
-- Time: _5:00 - 6:00 pm, followed by 15 minutes of Q&A_
-- Join: _[meet.google.com/qqs-vnkc-hgo](https://meet.google.com/qqs-vnkc-hgo)_
 
 ## About the Speaker
 
