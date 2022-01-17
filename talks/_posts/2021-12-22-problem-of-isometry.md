@@ -9,7 +9,9 @@ blurb: >
 tags: talk research
 ---
 
-_The recorded lecture will be uploaded soon!_
+{% include youtube.html
+    code="tBOf1KyiVno"
+%}
 
 ## Abstract
 
