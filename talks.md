@@ -23,6 +23,13 @@ should be able to enjoy and appreciate.
             <li>
                 <span class="post-date"> {{ post.futuredate | date: "%d %b %Y" }} </span>
                 <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title }}</a>
+                {% if post.author %}
+                    <span class="dot">•</span>
+                    <span class="post-author">{{ post.author }}</span>
+                {% endif %}
+                {% if post.blurb %}
+                    <div class="post-blurb">{{ post.blurb | markdownify }}</div>
+                {% endif %}
             </li>
         {% endunless %}
         {% endfor %}
@@ -32,6 +39,13 @@ should be able to enjoy and appreciate.
             <li>
                 <span class="post-date"> {{ post.date | date: "%d %b %Y" }} </span>
                 <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title }}</a>
+                {% if post.author %}
+                    <span class="dot">•</span>
+                    <span class="post-author">{{ post.author }}</span>
+                {% endif %}
+                {% if post.blurb %}
+                    <div class="post-blurb">{{ post.blurb | markdownify }}</div>
+                {% endif %}
             </li>
         {% endfor %}
     </ul>
@@ -52,6 +66,13 @@ give students a flavour of what sort of problems modern mathematicians work on.
             <li>
                 <span class="post-date"> {{ post.futuredate | date: "%d %b %Y" }} </span>
                 <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title }}</a>
+                {% if post.author %}
+                    <span class="dot">•</span>
+                    <span class="post-author">{{ post.author }}</span>
+                {% endif %}
+                {% if post.blurb %}
+                    <div class="post-blurb">{{ post.blurb | markdownify }}</div>
+                {% endif %}
             </li>
         {% endunless %}
         {% endfor %}
@@ -61,6 +82,13 @@ give students a flavour of what sort of problems modern mathematicians work on.
             <li>
                 <span class="post-date"> {{ post.date | date: "%d %b %Y" }} </span>
                 <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title }}</a>
+                {% if post.author %}
+                    <span class="dot">•</span>
+                    <span class="post-author">{{ post.author }}</span>
+                {% endif %}
+                {% if post.blurb %}
+                    <div class="post-blurb">{{ post.blurb | markdownify }}</div>
+                {% endif %}
             </li>
         {% endfor %}
     </ul>
@@ -79,6 +107,13 @@ theorem, or even puzzles and riddles with particularly elegant solutions.
             <li>
                 <span class="post-date"> {{ post.date | date: "%d %b %Y" }} </span>
                 <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title }}</a>
+                {% if post.author %}
+                    <span class="dot">•</span>
+                    <span class="post-author">{{ post.author }}</span>
+                {% endif %}
+                {% if post.blurb %}
+                    <div class="post-blurb">{{ post.blurb | markdownify }}</div>
+                {% endif %}
             </li>
         {% endfor %}
     </ul>

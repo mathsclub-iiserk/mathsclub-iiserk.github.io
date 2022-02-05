@@ -171,3 +171,12 @@ The rest of the proof is trivial, and left as an exercise for the reader.
 ## References
 [1] Jungic, Veselin, [Introduction to Ramsey Theory: Lecture notes for
 undergraduate course](http://www.sfu.ca/~vjungic/RamseyNotes/sec_ES2.html)
+
+
+<br>
+
+## About the author
+
+Sayan Dutta is an undergraduate student of mathematics at IISER Kolkata, with a
+particular enthusiasm for number theory.
+Apart from mathematics, he has a keen interest in literature, cinema, and chess.

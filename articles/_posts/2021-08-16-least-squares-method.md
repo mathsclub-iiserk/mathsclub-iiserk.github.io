@@ -2,7 +2,10 @@
 layout: post
 title: Visualizing the Method of Least Squares
 author: Satvik Saha
-blurb: A geometric perspective, with a little intuition and linear algebra.
+blurb: >
+    "Algebra is nothing more than geometry, in words; geometry is nothing more
+    than algebra, in pictures." -- Sophie Germain. Here, we attack a familiar
+    problem with geometry, linear algebra, and a splash of intuition.
 tags: article
 katex: true
 ---
@@ -349,3 +352,12 @@ invoking the Jacobian; this is a topic for a completely new discussion.
 
 ## References
 [1] Margalit, Dan and Rabinoff, Joseph, [_Interactive Linear Algebra_](https://textbooks.math.gatech.edu/ila/)
+
+
+<br>
+
+## About the author
+
+Satvik Saha is an undergraduate student of mathematics at IISER Kolkata.
+Besides academics, he is an avid chess player, enjoys programming, and an
+amateur violinist.

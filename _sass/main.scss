@@ -113,6 +113,24 @@ a {
         }
     }
 
+    .post-author {
+        font-style: italic;
+        opacity: 0.9;
+    }
+
+    .post-blurb {
+        margin-top: 6px;
+        margin-left: 4ch;
+
+        font-style: italic;
+        opacity: 0.8;
+    }
+
+    .dot {
+        margin: 0 8px;
+        opacity: 0.4;
+    }
+
     .read-more-link {
         display: inline-block;
         margin-top: 8px;

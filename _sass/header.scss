@@ -114,15 +114,18 @@
     display: none;
 }
 
+@media screen and (max-width: 900px) {
+    .header .main-logo {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
 @media screen and (max-width: 700px) {
     .header {
         grid-template-areas: "logo dyk menubutton"
                              "nav  nav nav";
         grid-template-columns: 1fr 48px 42px;
-    }
-    .header .main-logo {
-        flex-direction: column;
-        align-items: flex-start;
     }
     
     .header .did-you-know {
