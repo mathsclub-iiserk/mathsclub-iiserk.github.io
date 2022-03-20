@@ -47,6 +47,8 @@ title: Home
 
 <!-- Latest posts -->
 
+{% assign maxitems = 3 %}
+{% assign curitems = 0 %}
 <div class="first-post-container prominent-post-container">
     <h2>Latest</h2>
     {% for post in site.posts %}
@@ -74,11 +76,34 @@ title: Home
             <a class="post-link read-more-link fancy" href="{{ post.url | relative_url }}">Read more</a>
         </div>
     </div>
-    {% break %}
+    {% assign curitems = curitems | plus: 1 %}
+    {% if curitems >= maxitems %}
+        {% break %}
+    {% else %}
+        <hr>
+    {% endif %}
     {% endunless %}
     {% endfor %}
 </div>
+<hr>
 
+<!-- Blog -->
+
+<div class="prominent-post-container">
+    <h2>Announcements</h2>
+    <div class="upcoming-post prominent-post">
+        <h1 class="post-title">We have a blog!</h1>
+        <div class="post-details">
+                <div class="post-blurb">
+                    Head over there to read our members' posts on short
+                    problems with elegant solutions, tricks, techniques,
+                    interesting ideas they've discovered or stumbled upon, and
+                    other mathematical curiosities.
+                </div>
+            <a class="post-link read-more-link fancy" href="https://identity-iiserkol.blogspot.com/">Blog</a>
+        </div>
+    </div>
+</div>
 <hr>
 
 <div class="post-blocks">

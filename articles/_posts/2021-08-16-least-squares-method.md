@@ -358,6 +358,8 @@ invoking the Jacobian; this is a topic for a completely new discussion.
 
 ## About the author
 
-Satvik Saha is an undergraduate student of mathematics at IISER Kolkata.
-Besides academics, he is an avid chess player, enjoys programming, and an
-amateur violinist.
+Satvik Saha is an undergraduate student of mathematics, but his sombre aura is
+just a visor. His bow glides effortlessly on his slender violin strings,
+talking of Fibonacci's spiral, or Lagrange's multipliers. An amateur chess
+player and speedcuber, he is full of surprises - especially when one stumbles
+upon his elegant coding skills.

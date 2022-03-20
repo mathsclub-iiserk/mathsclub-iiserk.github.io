@@ -5,6 +5,7 @@ blurb: >
     On the occasion of National Mathematics Day 2021, Identity conducted an
     online Mathematics Treasure Hunt, open to all students! Skilfully
     navigating puzzles, riddles, and problems leads to glory and treasure ...
+tags: event
 ---
 
 

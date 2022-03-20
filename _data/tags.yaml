@@ -14,5 +14,8 @@ proof:
     name: Proof
     link: /talks/#proof
 monthlycontest:
-    name: Monthly Contests
+    name: Contests/Discussions
     link: /contests/
+event:
+    name: Events
+    link: /events/

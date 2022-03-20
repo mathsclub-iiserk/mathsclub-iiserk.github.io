@@ -1,2 +1,4 @@
 baseurl: "/~maths.club"
 future: true
+exclude:
+  - push_site.sh

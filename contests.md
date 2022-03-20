@@ -1,14 +1,15 @@
 ---
 layout: default
-title: Monthly Contests
+title: Contests/Discussions
 permalink: /contests/
 ---
 
-# Monthly Contests
+# Contests/Discussions
 
-This is an archive of all monthly contests organized by the club. Every month,
-an interesting problem is posted; solutions are received over a period of 3
-weeks. The best solutions are awarded and shared by the end of the month.
+This is an archive of all contests and discussions organized by the club.
+Typically, an interesting problem is posted periodically, and solutions are
+received over a period of 3 weeks. The best solutions are awarded and shared by
+the end of the month.
 
 <div class="post-block">
     <ul>

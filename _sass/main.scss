@@ -24,6 +24,10 @@ li > * {
     vertical-align: text-top;
 }
 
+li > ul, li > ol {
+    text-indent: 1.5em;
+}
+
 hr {
     border: none;
     border-top: solid 1px #AAAAAA;

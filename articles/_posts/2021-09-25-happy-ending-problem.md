@@ -177,6 +177,8 @@ undergraduate course](http://www.sfu.ca/~vjungic/RamseyNotes/sec_ES2.html)
 
 ## About the author
 
-Sayan Dutta is an undergraduate student of mathematics at IISER Kolkata, with a
-particular enthusiasm for number theory.
-Apart from mathematics, he has a keen interest in literature, cinema, and chess.
+Sayan Dutta is an undergraduate student of mathematics, interested in discrete
+mathematics and vibrant patterns hidden in the simplest of structures. His
+appreciation of beauty stems from his cinephile present, while his chess moves
+are just nuances of perfection. He aspires to paint the world in the language
+of mathematics and the blossoms of the silver screen.
