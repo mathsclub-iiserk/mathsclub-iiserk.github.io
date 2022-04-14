@@ -24,7 +24,7 @@ representation of binomial coefficients via factorials. It was also known
 independently in other parts of the world; called the _Khayyam Triangle_ in
 Iran, _Yang Hui's Triangle_ in China (to this date) and _Tartaglia's Triangle_
 in Italy. Nevertheless, in his treatise _Traité du triangle arithmétique_,
-Pascal gave a mathematical treatment like never before[[1]](#references).
+Pascal gave a mathematical treatment like never before [[1]](#references).
 
 
 {% include image.html 
@@ -37,7 +37,7 @@ Pascal gave a mathematical treatment like never before[[1]](#references).
 He presented us with 19 _consequences_/properties of the Arithmetic Triangle,
 as well as many lemmas and fields of usage of the same. These include the
 inclusion of chance based two player games that involve the transfer of
-money/shares[[2]](#references). He also talked about the its use in binomial
+money/shares [[2]](#references). He also talked about the its use in binomial
 expansions and combinatorics, ones which are more common to the general math
 student. However, ignorant would be the mathematician's mind that refuses to go
 beyond this and explore the diverse, apparently unrelated corners of
@@ -69,7 +69,7 @@ L_n =
 . & . & . & . & . &  & \\
 . & . & . & . & . & . & \\
 1 & n & . & . & . & n& 1\\
-\end{pmatrix}_{n\times n}
+\end{pmatrix}_{(n+1)\times (n+1)}
 $$
 
 where the blank spaces are all zeroes. This resembles an inclined plane, but
@@ -90,18 +90,18 @@ noted!**).
 ## Eigenvalues and Eigenvectors
 
 The lower Pascal Matrix $L_n$ has determinant $1$, as the determinant of a
-lower triangular matrix is just the product of its diagonal elements. It's
+lower triangular matrix is just the product of its diagonal elements. Its
 eigenvalues are the solutions of
 
 $$
 \text{det}(L_n-\lambda I_n)=(1-\lambda)^n=0
 $$
 
-which gives $\lambda = 1$ ($I_n$ is the $n\times n$ Identity matrix - did you
+which gives $\lambda = 1$ ($I_n$ is the $(n+1)\times (n+1)$ Identity matrix - did you
 get it?).
 
 **The diagonal elements all being $1$ makes $L_n$ a unitriangular matrix, and
-therefore _unipotent_[[3]](#references), _i.e_, $L_n-I_n$ is nilpotent, having
+therefore _unipotent_ [[3]](#references), _i.e_, $L_n-I_n$ is nilpotent, having
 the null matrix as a higher power.** (_Non-mathematicians, don't work yourself
 up.  This is the jargon we deal with all day :/_).
 
@@ -146,8 +146,8 @@ $$
 (L^k_n)_{ij}=k^{i-j}\binom{i}{j}
 $$
 
-for all $k$ among naturals[[4]](#references)[[5]](#references). The particular case for
-$k=2$ is very interesting.
+for all $k$ among naturals [[4]](#references), [[5]](#references). The
+particular case for $k=2$ is very interesting.
 
 $$
 H_n = 
@@ -159,7 +159,7 @@ H_n =
 . & . & . & . & . &  & \\
 . & . & . & . & . & . & \\
 2^n & n2^{n-1} & . & . & . & 2n& 1\\
-\end{pmatrix}_{n\times n}
+\end{pmatrix}_{(n+1)\times (n+1)}
 $$
 
 I call it $H_n$ as the $(i,j)$ entry in it is precisely the number of $j$
@@ -224,7 +224,7 @@ $$ G_n=\sum_{r=0}^{\left\lfloor\frac{n}{2}\right\rfloor}2^{n-2r}\binom{n-r}{r} $
 If you move further and calculate the diagonal sums of say, $L^k_n$, you'll
 only come across terms of the sequence $a_0=0$, $a_1=1$ and
 $a_n=ka_{n-1}+a_{n-2}$. These are called Fibonacci
-k-sequences[[6]](#references).
+k-sequences [[6]](#references).
 
 _What can you say about the ratio $a\_{n+1}:a_n$ as $n$ tends to infinity? May
 not be golden, but shall certainly glitter._

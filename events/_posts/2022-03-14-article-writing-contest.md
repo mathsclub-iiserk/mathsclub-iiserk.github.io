@@ -31,8 +31,9 @@ and third ranked participants will receive **Rs. 314**, **Rs. 265**, and **Rs.
 159** respectively. Rest assured that your article will be judged in a fair and
 objective manner by a panel of our own professors.
 
-The contest officially closes on **31 March**. Looking forward to hearing from
-you!
+The contest officially closes on ~~31 March~~ **15 April**.
+
+Looking forward to hearing from you!
 
 ## Rules and guidelines
 
@@ -44,13 +45,15 @@ you!
 3. Send in your article to
    [maths.club@iiserkol.ac.in](mailto:maths.club@iiserkol.ac.in), with the
    subject _Submission: Article Writing Contest '22_ by the end of this month,
-   i.e. the deadline for submission is **31 March**.
+   i.e. the deadline for submission is **15 April**.
 4. Make sure to supply references!
 5. Including relevant diagrams/images is encouraged.
 6. Keep it simple; the goal is to present an interesting topic in a way that a
    broad audience can understand and appreciate.
 7. Do not present any offensive/political/off-topic content.
 8. Do not plagiarize content.
+9. Collaboration is allowed, but no more than 3 articles per person will be
+   accepted.
 
 ## Judging and prizes
 
