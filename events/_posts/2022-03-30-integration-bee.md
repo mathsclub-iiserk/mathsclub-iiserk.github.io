@@ -18,7 +18,7 @@ Bee as its first offline event on campus.
 ## Our winners
 
 Congratulations to our victor __Swapnil Ray__ and our runner-up __Rohan
-Didmishe__! Thank you to all particiapants for putting up a good fight.
+Didmishe__! Thank you to all participants for putting up a good fight.
 
 
 {% include image.html

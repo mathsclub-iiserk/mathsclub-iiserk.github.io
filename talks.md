@@ -95,6 +95,31 @@ give students a flavour of what sort of problems modern mathematicians work on.
 </div>
 
 
+## Student Talks
+
+This series consists of talks delivered by students, including those from our
+junior-most batches.
+
+<div class="post-block">
+    <ul>
+        {% assign posts = site.categories.talks | where: "tags", "student" %}
+        {% for post in posts %}
+            <li>
+                <span class="post-date"> {{ post.date | date: "%d %b %Y" }} </span>
+                <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title }}</a>
+                {% if post.author %}
+                    <span class="dot">•</span>
+                    <span class="post-author">{{ post.author }}</span>
+                {% endif %}
+                {% if post.blurb %}
+                    <div class="post-blurb">{{ post.blurb | markdownify }}</div>
+                {% endif %}
+            </li>
+        {% endfor %}
+    </ul>
+</div>
+
+
 ## Proof
 
 This series contains short videos about a particular mathematical concept,

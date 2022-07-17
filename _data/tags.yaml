@@ -10,6 +10,9 @@ whatis:
 research:
     name: Modern research
     link: /talks/#modern-research
+student:
+    name: Student Talks
+    link: /talks/#student-talks
 proof:
     name: Proof
     link: /talks/#proof

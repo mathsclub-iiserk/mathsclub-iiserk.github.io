@@ -8,6 +8,8 @@ tags: event
 ---
 
 
+## About
+
 Wishing you all a very Happy Pi Day, 2022! It's 3/14, the day to celebrate one
 of the most renowned constants in mathematics. 
 
@@ -34,6 +36,21 @@ objective manner by a panel of our own professors.
 The contest officially closes on ~~31 March~~ **15 April**.
 
 Looking forward to hearing from you!
+
+
+## Our winners
+
+We extend our heartiest congratulations to our winners.
+
+1. **Bharath Krishna S**, IISER Thiruvananthapuram - _TIKI TAKA with Catalan Numbers_
+2. **Swastik Patnaik**, IISER Mohali - _Going around in circles: Counting circular
+   permutations with repeated objects is not as easy as it looks!_
+3. **Sougata Panda**, CMI - _π AND 22/7 with its cousins and origin_
+4. **Rohan Didmishe**, IISER Kolkata - _Circles to Numbers_
+5. **Soumya Das Gupta**, CMI - _Cyclones, Milkweeds and Hedgehogs_
+
+You can find all of their articles on our website.
+
 
 ## Rules and guidelines
 
