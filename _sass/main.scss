@@ -6,7 +6,7 @@
 body {
     background-image: url($baseurl + "/assets/images/maths.jpg");
     background-repeat: repeat;
-    
+
     @media screen and (max-width: 1000px) {
         background: #F9F9F9;
     }
@@ -85,7 +85,7 @@ a {
 
     border-radius: 8px;
     overflow: hidden;
-    
+
     @media screen and (max-width: 1000px) {
         margin: 0 auto;
         border-radius: 0;
