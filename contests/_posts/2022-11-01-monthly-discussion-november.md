@@ -112,9 +112,9 @@ $$
     \frac{dy}{dx} = F(x,y)
 $$
 
-with a continuously differentiable function $F$ on some domain (Cartesian
-product of two intervals) which is bounded and Lipschitz continuous admits a
-unique solution.
+with a continuously differentiable function $F$ on some compact domain
+(Cartesian product of two intervals) which is bounded and Lipschitz continuous
+admits a unique solution.
 
 Boundedness and Lipschitz continuity are such that $\exists M,C\in\mathbb{R}$ and
 

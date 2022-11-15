@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: upcoming
 title: CryptFest
 futuredate: 3 September, 2022
 blurb: >

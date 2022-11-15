@@ -10,6 +10,11 @@ blurb: >
 tags: talk whatis
 ---
 
+
+{% include youtube.html
+    code="pycDeEtF0Tw"
+%}
+
 [Lecture notes]({% link assets/slides/2022-06-29-spatial-statistics.pdf %})
 
 ## Abstract
