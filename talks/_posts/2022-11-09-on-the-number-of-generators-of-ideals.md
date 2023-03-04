@@ -6,10 +6,7 @@ blurb: >
     _Abstract:_ Let R be a Noetherian ring and I ⊂ R be an ideal. Let μ(-)
     denote the minimal number of generators. It is well known that there is a
     sequence of inequalities μ(I/I²) ≤ μ(I) ≤ μ(I/I²)+1 that are strict in
-    general. Attaining the equality with the lower bound has been the content
-    of many articles in the literature. This depends hugely on the types of
-    rings and the nature of ideals therein, and in this talk we will discuss
-    them.
+    general ...
 katex: true
 tags: talk research
 ---
