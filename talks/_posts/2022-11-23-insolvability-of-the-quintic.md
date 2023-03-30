@@ -11,6 +11,9 @@ blurb: >
 tags: talk whatis
 ---
 
+{% include youtube.html
+    code="yBcE1AcAbDw"
+%}
 
 [Lecture slides]({% link assets/slides/2022-11-23-insolvability-of-the-quintic.pdf %})
 
