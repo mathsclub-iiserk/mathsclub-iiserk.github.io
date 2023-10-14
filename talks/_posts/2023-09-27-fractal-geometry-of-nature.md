@@ -1,18 +1,17 @@
 ---
-layout: upcoming
+layout: post
 title: The Fractal Geometry of Nature
 author: Prof. Soumitro Banerjee
-futuredate: 27 September, 2023
-futuretime: 3:30 - 4:30 PM
 blurb: >
     _Abstract:_ The geometry of natural objects differs from that of
     'idealized' objects that one studies in a geometry course. In this talk,
     I'll first take a closer look at the concept of dimension of a geometrical
     object and will show that the dimension can be a fractional number ...
 katex: true
-tags: talk research done
+tags: talk research
 ---
 
+[Lecture slides]({% link assets/slides/2023-09-27-fractal-geometry-of-nature.pdf %})
 
 ## Abstract
 
@@ -29,11 +28,6 @@ affine transforms, one can obtain a Cauchy sequence that converges on any
 desired image. That gives a powerful tool to codify any image as a collection
 of matrices. Finally I shall illustrate a few practical applications.
 
-## Details
-
-- Date: _Wednesday, 27 September, 2023_
-- Time: _3:30 - 4:30 pm_
-- Venue: _LHC G06_
 
 ## About the Speaker
 
