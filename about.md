@@ -25,62 +25,65 @@ and appreciation for mathematics.
 
 <div class="about-card-container">
     {% include aboutcard.html
-        photo="srinjena.jpeg"
-        name="Srinjena Das"
-        batch="22MP"
+        name="Abhratanu Ray"
+        batch="22MS"
         description="Core committee"
-    %}
-
-    {% include aboutcard.html
-        photo="sayan.jpeg"
-        name="Sayan Dutta"
-        batch="19MS"
-        description="Core committee"
-    %}
-
-    {% include aboutcard.html
-        photo="rohan.jpeg"
-        name="Rohan Didmishe"
-        batch="20MS"
-        description="Core committee"
-    %}
-
-    {% include aboutcard.html
-        photo="abhisruta.jpeg"
-        name="Abhisruta Maity"
-        batch="21MS"
-        description="Core committee"
-    %}
-
-    {% include aboutcard.html
-        name="Vibhor Saxena"
-        batch="21MS"
-        description="Social media handler"
-    %}
-    
-    {% include aboutcard.html
-        name="Kishan Saha"
-        batch="21MS"
-        description="Social media handler<br>Problem setter"
-    %}
-
-    {% include aboutcard.html
-        photo="sohom.jpeg"
-        name="Sohom Gupta"
-        batch="19MS"
-        description="Problem setter"
     %}
 
     {% include aboutcard.html
         name="Abhilash Saha"
         batch="21MS"
-        description="Problem setter"
+        description="Core committee"
+    %}
+
+    {% include aboutcard.html
+        photo="kishan.jpeg"
+        name="Kishan Saha"
+        batch="21MS"
+        description="Core committee"
+    %}
+
+    {% include aboutcard.html
+        name="Rishab P Hariharan"
+        batch="22MS"
+        description="Core committee"
+    %}
+
+    {% include aboutcard.html
+        photo="bikram.jpeg"
+        name="Bikram Pal"
+        batch="23MS"
+        description="Social media handler"
+    %}
+
+    {% include aboutcard.html
+        name="Karthikeyan Ganesan"
+        batch="19MS"
+        description="Content Writer"
     %}
     
     {% include aboutcard.html
-        photo="satvik.jpeg"
-        name="Satvik Saha"
-        batch="19MS"
+        name="Sapnodip Pramanik"
+        batch="23MS"
+        description="Content Writer"
+    %}
+
+    {% include aboutcard.html
+        name="Shibaraj Sahu"
+        batch="23MS"
+        description="Content Writer"
+    %}
+
+    {% include aboutcard.html
+        name="Manish Behera"
+        batch="23MS"
+        description="Web developer"
+    %}
+
+    {% include aboutcard.html
+        photo="shrinivas.jpeg"
+        name="M Srinivasa Ramanujam"
+        batch="23MS"
         description="Web developer"
     %}
 </div>
@@ -89,5 +92,7 @@ and appreciation for mathematics.
 
 
 ## Former committee members
+
+*2022 - 2023*: Srinjena Das, Sayan Dutta, Rohan Didmishe, Abhisruta Maity, Vibhor Saxena, Kishan Saha, Sohom Gupta, Abhilash Saha,      Satvik Saha.
 
 *2021 - 2022*: Sroyon Sengupta, Arundhati Roy, Akash Chandra Behera, Satvik Saha.
