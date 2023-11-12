@@ -24,7 +24,7 @@ Riemann Integration is the standard type of integral taught in basic courses, wh
 
 ## The World of Triangular Partitions
 
-**Speaker:** _Safarul Rasheed_
+**Speaker:** _Mr Safarul Rasheed_
 
  An integer partition is a way of writing a positive integer as a sum of positive integers. We will be exploring the concept of a triangular partition, which is an integer partition that can be represented by a diagram living inside a triangle. We will see certain properties of triangular partitions and a quite appealing characterization of them using the notion of balanced words over a binary alphabet. Using this characterization, we will attempt to tackle an interesting problem regarding the closure of an 'addition' operation on triangular partitions. Fortunately or not, the outcome of this attempt will reveal new questions to understand and attempt to answer.
 
