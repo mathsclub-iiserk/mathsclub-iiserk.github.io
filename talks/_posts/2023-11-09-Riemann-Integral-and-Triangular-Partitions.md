@@ -19,7 +19,7 @@ Riemann Integration is the standard type of integral taught in basic courses, wh
 {% include image.html
     url="posters/2023-11-09-reimann-integral.png"
     width="600px"
-    caption="Poster for the event, designed by Abhisruta Maityi."
+    caption="Poster for the event, designed by Abhisruta Maity."
 %}
 
 ## The World of Triangular Partitions
