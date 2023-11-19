@@ -75,6 +75,7 @@ and appreciation for mathematics.
     %}
 
     {% include aboutcard.html
+        photo="manish.png"
         name="Manish Behera"
         batch="23MS"
         description="Web developer"
