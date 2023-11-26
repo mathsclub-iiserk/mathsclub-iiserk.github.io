@@ -3,7 +3,7 @@ layout: post
 title: "Breaking the Riemann Integral and The World of Triangular Partitions"
 author: Rohan Didmishe, Safarul Rasheed  
 blurb: >
-    In our second session of Student Talks, Rohan talks abvout the construction of an instructive example which he constructed to show the main defect in Riemann integration, while Safarul explores the concept of a triangular partition. 
+    In our second session of Student Talks, Rohan talks about the construction of an instructive example which he constructed to show the main defect in Riemann integration, while Safarul explores the concept of a triangular partition. 
 tags: talk student
 ---
 
