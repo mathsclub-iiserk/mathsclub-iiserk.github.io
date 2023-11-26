@@ -20,9 +20,9 @@ All of you Math Majors in IISER-K (and beyond) would have definitely taken some 
 \\[\hat{H} = \frac{\hat{p}^{2}}{2m} + \frac{1}{2}m\omega^{2}\hat{x}^{2}\\]
 
 where \\(\hat{p}\\) and \\(\hat{x}\\) are the momentum and position operators.
-The corresponding equation to find the energy eigenvalues (denoted by E) is:
+The corresponding equation to find the energy eigenvalues (denoted by $E$) is:
 
-\\[\hat{H} \psi \rangle = E \psi \rangle\\]
+\\[\hat{H} \vert \psi \rangle = E \vert \psi \rangle\\]
 
 
 Using the definition of momentum and position operators, as well as the definition of wavefunction in position, one obtains the Time-independent Schrodinger equation:
